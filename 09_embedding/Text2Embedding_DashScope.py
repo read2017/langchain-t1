@@ -2,7 +2,7 @@
 https://bailian.console.aliyun.com/cn-beijing/?tab=api#/api/?type=model&url=2587654
 uv add langchain-community dashscope
 """
-from langchain_community.embeddings import DashScopeEmbeddings # pyright: ignore[reportMissingImports]
+from langchain_community.embeddings import DashScopeEmbeddings 
 
 embedding = DashScopeEmbeddings(
     model = "text-embedding-v4",

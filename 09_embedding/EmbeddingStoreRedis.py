@@ -6,8 +6,7 @@ import os
 # 1. 初始化阿里千问 Embedding 模型
 embedding = DashScopeEmbeddings(
     model="text-embedding-v4",
-    api_key=os.getenv("DASHSCOPE_API_KEY"),
-    base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+    dashscope_api_key=os.getenv("DASHSCOPE_API_KEY"),
 )
 
 # 2. 准备要向量化的文本（Document 列表）
