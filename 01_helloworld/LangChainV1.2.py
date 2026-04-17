@@ -20,5 +20,5 @@ model2 = init_chat_model(
     base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1",
 )
 
-# print(model2.invoke("你是谁").content)
-# model.stream()流式输出
+print(model2.invoke("你是谁").content)
+# model.stream()# 流式输出
